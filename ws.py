@@ -12,14 +12,17 @@ print(ftoi)
 
 # int from float cuts off anything after the decimal point, regardless of whether we should round up or down
 # [FLOOR]
+
 5
 intstring = '5'
 print(type(intstring))
 stoi = int(intstring) # convert intstring from a string to an integer
 
 print(type(stoi))
+
 <class 'str'>
 <class 'int'>
+
 i+f # addition
 10.5
 i-f # subtraction
@@ -44,6 +47,7 @@ o
 # len(s) -> length of string s [in this case 5]
 # range(n) -> gives you a group of numbers to loop over
 # range(5) -> 0, 1, 2, 3, 4
+
 for index in range(len(s)):
   print(index)
   print(s[index])
@@ -57,6 +61,7 @@ l
 l
 4
 o
+
 # len(s) -> length of string s [in this case 5]
 # range(n) -> gives you a group of numbers to loop over
 # range(4) -> 0, 1, 2, 3
