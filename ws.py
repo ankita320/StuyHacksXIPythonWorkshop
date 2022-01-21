@@ -1,9 +1,9 @@
 # StuyHacksXIPythonWorkshop
-Open In Colab
 i = 5       # integer
 f = 5.5     # float/double
 s = 'hello' # string
 b = False   # boolean
+
 if not b:
   print('no')
 no
