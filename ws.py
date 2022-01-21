@@ -252,6 +252,7 @@ dct['abir'] = 'taheer' # assigning keys values
 
 print(dct['bill']) # looking up values from keys
 ni
+
 for key in dct:
   print(key + ' ' + dct[key]) # looping thru a dictionary
 bill ni
