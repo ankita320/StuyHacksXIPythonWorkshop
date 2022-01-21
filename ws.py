@@ -65,6 +65,7 @@ o
 # len(s) -> length of string s [in this case 5]
 # range(n) -> gives you a group of numbers to loop over
 # range(4) -> 0, 1, 2, 3
+
 for index in range(len(s) - 1):
   print(s[index] + s[index + 1])
 he
